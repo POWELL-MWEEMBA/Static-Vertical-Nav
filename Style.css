@@ -119,7 +119,7 @@ section{
 }
 .colored-text{
 margin-bottom: 20px;
-    background: linear-gradient(90deg, blue, indigo, violet, red);
+    background: linear-gradient(45deg, blue, indigo, violet, red);
     -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -151,7 +151,7 @@ button:hover{
 footer{
     width: 20%;
     height: 100px;
-    background: linear-gradient(90deg, blue, indigo, violet, red);
+    background: linear-gradient(45deg, blue, indigo, violet, red);
     display: flex;
     position: absolute;
     justify-content: center;
@@ -171,3 +171,4 @@ footer p{
 .content i{
     color: white;
     font-size: 50px;}
+
