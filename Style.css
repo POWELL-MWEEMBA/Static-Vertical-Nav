@@ -119,8 +119,8 @@ section{
 }
 .colored-text{
 margin-bottom: 20px;
-background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
--webkit-background-clip: text;
+    background: linear-gradient(90deg, blue, indigo, violet, red);
+    -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 .content-center p{
@@ -151,7 +151,7 @@ button:hover{
 footer{
     width: 20%;
     height: 100px;
-    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+    background: linear-gradient(90deg, blue, indigo, violet, red);
     display: flex;
     position: absolute;
     justify-content: center;
@@ -164,7 +164,7 @@ footer{
 footer p{
     display: inline;
     margin-top: 50px;
-    color: #131313;
+    color: #f5f5f5;
     font-size: 18px;
     font-weight: 800;
 }
